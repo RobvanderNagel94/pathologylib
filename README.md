@@ -14,6 +14,7 @@ This library presents key EEG domain features, among others:
 
 ## File Structure
 The library consists of the following files:
+- core: Contains the core code to define an EEG dataset.
 -	eval: Contains the evaluation code for the trained models.
 -	features: Contains code for extracting both multi and single channel signal features.
 -	models: Contains the machine learning models used for classification.
