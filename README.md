@@ -1,1 +1,24 @@
 # pathologylib
+Detecting pathological scalp recordings using features of the EEG background pattern:
+A pathology decoding library for supervised learning classification of EEG signals.
+
+## Features
+This library presents key EEG domain features, among others:
+
+-	Background features (i.e., alpha rhythm frequency, reactivity, anterio–posterior gradient, interhemispheric asymmetries, diffuse slow-wave activity)
+- Spatial features (i.e., stft, welch, mnnc, cogx, cogy)
+-	Statistical features (i.e., skewness, kurtosis, line Length, maximum, minimum, mean, median, lumpiness, flat spots, zero crossing, zero crossing derivative)
+- Time complexity features (i.e., hjorth activity, mobility, and complexity, (nonlinear) energy, higuchi and petrosian fractal dimension, largest lyapunov exponent, hurst exponent, svd entropy and fisher information)
+- Connectivity features (i.e., phase locking values)
+- Frequency features (i.e., discrete and continious wavelet transformation, fourier transformation)
+
+## File Structure
+The library consists of the following files:
+-	eval: Contains the evaluation code for the trained models.
+-	features: Contains code for extracting both multi and single channel signal features.
+-	models: Contains the machine learning models used for classification.
+-	research: Contains research papers and articles related to the project.
+-	visualization: Contains code for visualizing the results of the models.
+
+## Usage
+The library is easy to use and can be integrated into any EEG-based research project. Simply import the necessary functions from the relevant files, extract the features from the EEG signals, and train the machine learning models using the provided code. The evaluation code can then be used to test the accuracy of the models.
