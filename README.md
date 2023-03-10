@@ -23,3 +23,19 @@ The library consists of the following files:
 
 ## Usage
 The library is easy to use and can be integrated into any EEG-based research project. Simply import the necessary functions from the relevant files, extract the features from the EEG signals, and train the machine learning models using the provided code. The evaluation code can then be used to test the accuracy of the models.
+
+## Dependencies
+
+The minimum required dependencies are:
+
+Python >= 3.7
+NumPy >= 1.18.1
+SciPy >= 1.4.1
+Matplotlib >= 3.1.0
+pooch >= 1.5
+Scikit-learn >= 0.22.0
+joblib >= 0.15
+Numba >= 0.48.0
+NiBabel >= 2.5.0
+OpenMEEG >= 2.5.5
+Pandas >= 1.0.0
