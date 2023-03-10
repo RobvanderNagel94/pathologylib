@@ -26,16 +26,9 @@ The library is easy to use and can be integrated into any EEG-based research pro
 
 ## Dependencies
 
-The minimum required dependencies are:
-
-Python >= 3.7
-NumPy >= 1.18.1
-SciPy >= 1.4.1
-Matplotlib >= 3.1.0
-pooch >= 1.5
-Scikit-learn >= 0.22.0
-joblib >= 0.15
-Numba >= 0.48.0
-NiBabel >= 2.5.0
-OpenMEEG >= 2.5.5
-Pandas >= 1.0.0
+- Python >= 3.7
+- NumPy >= 1.18.1
+- SciPy >= 1.4.1
+- Matplotlib >= 3.1.0
+- Scikit-learn >= 0.22.0
+- Pandas >= 1.0.0
