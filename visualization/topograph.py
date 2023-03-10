@@ -1,4 +1,4 @@
-from base.montages import MONTAGE_1020
+from core.montages import MONTAGE_1020
 
 from matplotlib.pyplot import (subplots, show)
 from mne import (create_info, viz)
