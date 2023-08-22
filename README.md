@@ -12,7 +12,7 @@ This library presents key EEG domain features, among others:
 The library consists of the following files:
 - core: Contains the core code that defines fundamental components for EEG data analysis, such as EEG dataset handling and montage configurations.
 - datasets: Contains code for managing EEG datasets, including loading, preprocessing, and splitting into training and testing sets.
-- features: Contains code for extracting features from EEG data. This includes both multi-channel and single-channel signal features that are essential for training machine learning models.
+- features: Contains code for extracting features from EEG data. This includes both multi- and single-channel signal features that are essential for training machine learning models.
 - models: Holds the machine learning models implemented for EEG classification tasks. These models are designed to process the extracted features and make predictions.
 - research: Contains research papers, articles, and references related to the EEG classification project. This directory helps maintain a collection of relevant literature.
 - utils: Contains utility functions and helper code that is shared across different parts of the project. These utilities assist in tasks like data manipulation and processing.
